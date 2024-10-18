@@ -1,0 +1,459 @@
+body{
+    margin: 0;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    padding: 10px;
+}
+
+#headHeading{
+    color: white;
+    font-size: 35px;
+    font-family: "Libre Baskerville", serif;
+}
+
+.item, .item1{
+    color: white;
+    padding: 20px;
+    font-size: 14px;
+    font-family: "League Spartan", sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.introduction{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.textIntroduction{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 80px;
+    font-family: "Libre Baskerville", serif;
+    text-align: center;
+}
+
+.listIntroduction{
+    list-style: none;
+    font-size: 35px;
+    font-family: "Libre Baskerville", serif;
+    /* text-align: center; */
+    color: rgb(5, 78, 14);
+}
+
+.btn{
+    margin-top: 30px;
+    padding: 20px;
+    width: 200px;
+    background-color: rgb(204, 225, 188);
+    font-size: 20px;
+    font-family: "League Spartan", sans-serif;
+    border-radius: 15px;
+    border: none;
+}
+
+.btnIntroduction{
+    text-decoration: none;
+    color:rgb(5, 78, 14);
+}
+
+.video{
+    background-color:black;
+    width: 100vw;
+    margin-top: 5px;
+}
+
+.stylist, .mystory{
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.aboutStylist{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    
+}
+
+.stylistHeading{
+    color:rgb(5, 78, 14);
+    font-size: 35px;
+    font-family: "Libre Baskerville", serif;
+    text-align: center;
+}
+
+p{
+    font-size: 18px;
+    font-family: "Libre Baskerville", serif;
+}
+
+.sectionHeading{
+    display: flex;
+    justify-content: center;
+    font-family: "Libre Baskerville", serif;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    padding: 30px;
+    margin: 0;
+}
+
+.continueMyStory{
+    color:rgb(5, 78, 14);
+    font-size: 35px;
+    text-decoration: none;
+}
+
+.howItWorks{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.workWay{
+    background-color: #ececec;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.step{
+    text-align: center;
+   width: 500px;
+   margin-bottom: 20px;
+   margin-right: 30px;
+  
+}
+.vertical{
+    width: 40px;
+    background-color: #ececec;
+    color: rgb(186, 29, 29);
+    font-size: 35px;
+    margin-top: 50px;
+    margin-left: 50px;
+    border: 2px solid rgb(186, 29, 29);
+    border-radius: 15px;
+}
+
+.line{
+    border-bottom: 2px solid rgb(186, 29, 29);
+}
+
+.clients{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 15px;
+
+}
+
+.flip-card {
+    background-color: rgb(204, 225, 188);
+    width: 300px;
+    height: 500px;
+    border-radius: 15px;
+    perspective: 1000px; 
+    margin-left: 50px; 
+    margin-right: 50px;
+  }
+  .rotatedfield{
+    position: relative;
+    width: 300px;
+    height: 500px;
+    text-align: center;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-card:hover .rotatedfield{
+    transform: rotateY(180deg)
+  }
+  .card-front, .card-back{
+    position: absolute;
+    width: 300px;
+    height: 500px;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  .card-back{
+    background-color:rgb(5, 78, 14);
+    border-radius: 15px;
+    color: rgb(204, 225, 188);
+    font-size: 30px;
+    font-family: "Libre Baskerville", serif;
+    transform: rotateY(180deg);
+  }
+
+.linkClients{
+    display: flex;
+    justify-content: end;
+}
+
+.Otherstylishstories{
+    text-decoration: none;
+    color: rgb(5, 78, 14);
+
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.socials{
+    display: flex;
+    font-size: 24px;
+      
+}
+
+.fa{
+padding: 10px;
+text-decoration: none;
+color:white 
+}
+
+.element1, .element2{
+    font-size: 20px;
+    color: white;
+    
+}
+
+.element1{
+    display: flex;
+    align-items: center;
+}
+
+.services{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.service{
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+
+.description{
+    width: 500px;
+    text-align: center;
+}
+
+.headHeadingLink{
+    text-decoration: none;
+    color: white;
+}
+
+.aboutHeading{
+    font-size: 45px;
+    text-align: center;
+    color:rgb(5, 78, 14)
+}
+
+.about{
+    display: flex;
+    
+}
+
+.aboutHeadingClient{
+    text-align: center;
+    color:rgb(5, 78, 14);
+    font-size: 30px;
+
+}
+
+.clientsBA{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+}
+
+.freeContent{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    height: 70vh;
+}
+
+.pFreeContent{
+    color:rgb(5, 78, 14);
+    font-size: 50px;
+}
+
+.after1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.client1{
+ margin-top: 20px;
+ margin-bottom: 20px;
+}
+
+.stylistphoto{
+    width: 40%;
+}
+
+.servicesName{
+    font-size: 35px;
+}
+
+.smalltext{
+    font-size: 15px;
+}
+
+@media all and (max-width: 800px){
+    body{
+        background-color:#ececec ;
+    }
+   nav{
+    display: flex;
+   }
+   .item{
+    padding: 10px;
+   }
+
+   .front{
+    display: none;
+   }
+
+   .textIntroduction{
+    width: 100%;
+   }
+
+   .video{
+    margin-top: 15px;
+   }
+
+   .stylistphoto{
+    width: 350px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+   }
+
+   .stylist{
+    align-items: center;
+   }
+
+   .mystory{
+    align-items: center;
+   }
+
+   .about{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   }
+
+   .aboutStylist{
+   
+    width: 75%;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 20px;
+    
+}
+}
+
+@media all and (max-width: 500px) {
+   nav{
+    flex-direction: column;
+   }
+
+   .item1{
+    display: none;
+   }
+
+   h1{
+    font-size: 45px;
+   }
+
+   .stylist{
+    display: flex;
+    flex-direction: column;
+   }
+
+   .stylistphoto{
+    width: 300px;
+    height: 420px;
+    display: flex;
+    align-items: center;
+   }
+
+  .sectionHeading{
+    font-size: 25px;
+  }
+
+  .mystory{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .step{
+    text-align: center;
+   width: 300px;
+   margin-bottom: 20px;
+   margin-left: 45px;
+}
+
+.clients{
+    flex-wrap: wrap;
+}
+
+.flip-card{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.description{
+    width: 300px;
+}
+.pfooter{
+    font-size: 14px;
+}
+.clientStylistPhoto{
+    width: 80vw;
+}
+
+.aboutHeadingClient{
+    font-size: 18px;
+
+}
+.client1{
+    width: 300px;
+}
+
+.clientsBA{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.servicesphotos{
+    width: 300px;
+}
+}
